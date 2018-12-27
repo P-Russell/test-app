@@ -1,5 +1,6 @@
 class HomeController < ApplicationController
   require 'fake_user_data_helper'
+
   def index
     if User.first.nil?
       users = FakeUserDataHelper.get_data
