@@ -1,0 +1,5 @@
+<%= form_with scope: :home, url: home_search_path, class: "pull-right", local: true do |form| %>
+    <%= form.submit "back", class: "btn btn-default" %>
+<% end %>
+
+<%= render 'table' %>
