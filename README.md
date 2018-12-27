@@ -7,5 +7,5 @@
 
 Note that the fake user data is only requested when the root action recieves its first GET request. So the page may take a while to load first time round.
 
-**to run tests**
-- to run tests: docker-compose run web rspec
+**To run tests**
+- docker-compose run web rspec
